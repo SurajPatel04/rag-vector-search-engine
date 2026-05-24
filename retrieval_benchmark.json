@@ -1,0 +1,143 @@
+[
+  {
+    "query": "How does the system handle peak load and traffic spikes?",
+    "strategy_a": [
+      "doc_001",
+      "doc_002",
+      "doc_009"
+    ],
+    "strategy_b": [
+      "doc_001",
+      "doc_002",
+      "doc_004"
+    ],
+    "scores_a": [
+      0.6173,
+      0.4648,
+      0.3356
+    ],
+    "scores_b": [
+      0.7484,
+      0.5231,
+      0.4019
+    ],
+    "topics_a": [
+      "Peak Load Handling",
+      "Auto-Scaling Policies",
+      "Data Pipeline and ETL"
+    ],
+    "topics_b": [
+      "Peak Load Handling",
+      "Auto-Scaling Policies",
+      "Database Scaling"
+    ],
+    "analysis": {
+      "avg_score_a": 0.4726,
+      "avg_score_b": 0.5578,
+      "winner": "B (AI-Enhanced)",
+      "overlapping_docs": [
+        "doc_001",
+        "doc_002"
+      ],
+      "unique_to_strategy_b": [
+        "doc_004"
+      ],
+      "latency_a_ms": 36.0,
+      "latency_b_ms": 26.32
+    }
+  },
+  {
+    "query": "What caching and database scaling strategies are used to ensure low latency?",
+    "strategy_a": [
+      "doc_003",
+      "doc_004",
+      "doc_002"
+    ],
+    "strategy_b": [
+      "doc_003",
+      "doc_004",
+      "doc_006"
+    ],
+    "scores_a": [
+      0.5887,
+      0.5708,
+      0.4948
+    ],
+    "scores_b": [
+      0.8607,
+      0.518,
+      0.4541
+    ],
+    "topics_a": [
+      "Caching Strategies",
+      "Database Scaling",
+      "Auto-Scaling Policies"
+    ],
+    "topics_b": [
+      "Caching Strategies",
+      "Database Scaling",
+      "Message Queue and Async Processing"
+    ],
+    "analysis": {
+      "avg_score_a": 0.5515,
+      "avg_score_b": 0.6109,
+      "winner": "B (AI-Enhanced)",
+      "overlapping_docs": [
+        "doc_003",
+        "doc_004"
+      ],
+      "unique_to_strategy_b": [
+        "doc_006"
+      ],
+      "latency_a_ms": 22.37,
+      "latency_b_ms": 38.86
+    }
+  },
+  {
+    "query": "How does the platform manage failures, retries, and fault tolerance across services?",
+    "strategy_a": [
+      "doc_005",
+      "doc_003",
+      "doc_008"
+    ],
+    "strategy_b": [
+      "doc_005",
+      "doc_001",
+      "doc_003"
+    ],
+    "scores_a": [
+      0.6308,
+      0.4247,
+      0.421
+    ],
+    "scores_b": [
+      0.7018,
+      0.4348,
+      0.4257
+    ],
+    "topics_a": [
+      "Error Handling and Fault Tolerance",
+      "Caching Strategies",
+      "Observability and Monitoring"
+    ],
+    "topics_b": [
+      "Error Handling and Fault Tolerance",
+      "Peak Load Handling",
+      "Caching Strategies"
+    ],
+    "analysis": {
+      "avg_score_a": 0.4922,
+      "avg_score_b": 0.5208,
+      "winner": "B (AI-Enhanced)",
+      "overlapping_docs": [
+        "doc_003",
+        "doc_005"
+      ],
+      "unique_to_strategy_b": [
+        "doc_001"
+      ],
+      "latency_a_ms": 18.07,
+      "latency_b_ms": 33.26
+    }
+  }
+]

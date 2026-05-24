@@ -1,0 +1,24 @@
+# Virtual environments
+.env
+.venv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Testing
+.pytest_cache/
+
+# FAISS index artifacts
+index/
+test_index/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
